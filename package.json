@@ -4,12 +4,21 @@
   "description": "wwq_learning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack"
   },
   "repository": "https://github.com/wwq19930808/vue-test.git",
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "postcss": "^8.1.0",
+    "vue-loader": "^15.9.6",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
   }
 }
